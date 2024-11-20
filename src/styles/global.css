@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: "Mont Bold";
+    src: url("/src/font/Montserrat-Bold.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Mont Regular";
+    src: url("/src/font/Montserrat-Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Mont Medium";
+    src: url("/src/font/Montserrat-Medium.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Uniform";
+    src: url("/src/font/UniformBold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+
+    /* Cores plano de fundo */
+    --bk-green: #3a7f1c; 
+    --bk-whiteice: #f1f1f1;
+
+    /*Cores texto*/
+    --text-1: #3a7f1c;
+    --text-2: #f1f1f1;
+
+    /*Cores elementos*/
+    --element-red: #ea2e26;
+
+    /*Cores gerais*/
+    --black: #000000;
+
+}
