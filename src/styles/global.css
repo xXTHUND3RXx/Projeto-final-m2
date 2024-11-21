@@ -10,18 +10,21 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: "Mont Regular";
     src: url("/src/font/Montserrat-Regular.ttf") format("ttf");
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: "Mont Medium";
     src: url("/src/font/Montserrat-Medium.ttf") format("ttf");
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: "Uniform";
     src: url("/src/font/UniformBold.otf") format("opentype");
@@ -32,7 +35,7 @@
 :root {
 
     /* Cores plano de fundo */
-    --bk-green: #3a7f1c; 
+    --bk-green: #3a7f1c;
     --bk-whiteice: #f1f1f1;
 
     /*Cores texto*/
@@ -45,4 +48,61 @@
     /*Cores gerais*/
     --black: #000000;
 
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #0000ff;
+}
+
+#barnav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.nav-itens {
+    text-decoration: none;
+    color: #008000;
+    font-weight: bold;
+}
+
+.nav-item.green {
+    color: #008000;
+}
+
+.nav-icons {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#text1 {
+    background-color: #008000;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    text-align: justify;
+}
+
+#text2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
 }
