@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #0000ff;
+}
+
+#barnav {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.navlist a {
+    font-size: 1.5rem;
+}
+
+.navlist {
+    font-family: "Uniform";
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-itens {
+    text-decoration: none;
+    color: #008000;
+    font-weight: bold;
+}
+
+.nav-itens:hover {
+    color: #ea2e26;
+}
+
+.nav-icons {
+    width: 35px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#text1 {
+    background-color: #008000;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.title {
+    font-family: "Uniform";
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-family: "Mont Bold";
+    font-size: 16px;
+    text-align: justify;
+}
+
+#text2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

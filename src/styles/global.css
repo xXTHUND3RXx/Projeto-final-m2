@@ -6,24 +6,31 @@
 
 @font-face {
     font-family: "Mont Bold";
+    /*paragrafos destaques*/
     src: url("/src/font/Montserrat-Bold.ttf") format("ttf");
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: "Mont Regular";
+    /*paragrafos menores*/
     src: url("/src/font/Montserrat-Regular.ttf") format("ttf");
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: "Mont Medium";
+    /*paragrafos*/
     src: url("/src/font/Montserrat-Medium.ttf") format("ttf");
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: "Uniform";
+    /*titulo importante*/
     src: url("/src/font/UniformBold.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
@@ -32,7 +39,7 @@
 :root {
 
     /* Cores plano de fundo */
-    --bk-green: #3a7f1c; 
+    --bk-green: #3a7f1c;
     --bk-whiteice: #f1f1f1;
 
     /*Cores texto*/
