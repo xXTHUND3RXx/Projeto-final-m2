@@ -6,6 +6,7 @@
 
 @font-face {
     font-family: "Mont Bold";
+    /*paragrafos destaques*/
     src: url("/src/font/Montserrat-Bold.ttf") format("ttf");
     font-weight: normal;
     font-style: normal;
@@ -13,6 +14,7 @@
 
 @font-face {
     font-family: "Mont Regular";
+    /*paragrafos menores*/
     src: url("/src/font/Montserrat-Regular.ttf") format("ttf");
     font-weight: normal;
     font-style: normal;
@@ -20,6 +22,7 @@
 
 @font-face {
     font-family: "Mont Medium";
+    /*paragrafos*/
     src: url("/src/font/Montserrat-Medium.ttf") format("ttf");
     font-weight: normal;
     font-style: normal;
@@ -27,6 +30,7 @@
 
 @font-face {
     font-family: "Uniform";
+    /*titulo importante*/
     src: url("/src/font/UniformBold.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
@@ -48,61 +52,4 @@
     /*Cores gerais*/
     --black: #000000;
 
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-}
-
-.header {
-    background-color: #ffffff;
-    border-bottom: 2px solid #0000ff;
-}
-
-#barnav {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 10px 0;
-}
-
-.nav-itens {
-    text-decoration: none;
-    color: #008000;
-    font-weight: bold;
-}
-
-.nav-item.green {
-    color: #008000;
-}
-
-.nav-icons {
-    width: 20px;
-    vertical-align: middle;
-    margin-right: 5px;
-}
-
-#text1 {
-    background-color: #008000;
-    color: #ffffff;
-    padding: 20px;
-}
-
-.title {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.description {
-    font-size: 16px;
-    text-align: justify;
-}
-
-#text2 {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
 }
