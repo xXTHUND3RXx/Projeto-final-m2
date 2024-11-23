@@ -1,10 +1,6 @@
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-}
 
 .header {
-    background-color: #ffffff;
+    background-color: var(--bk-whiteice);
     border-bottom: 2px solid #0000ff;
 }
 
@@ -15,7 +11,7 @@ body {
 }
 
 .navlist a {
-    font-size: 1.5rem;
+    font-size: 2.3rem;
 }
 
 .navlist {
@@ -27,7 +23,7 @@ body {
 
 .nav-itens {
     text-decoration: none;
-    color: #008000;
+    color: var(--text-1);
     font-weight: bold;
 }
 
@@ -36,32 +32,12 @@ body {
 }
 
 .nav-icons {
-    width: 35px;
+    width: 55px;
     vertical-align: middle;
     margin-right: 5px;
 }
-
-#text1 {
-    background-color: #008000;
-    color: #ffffff;
-    padding: 20px;
-}
-
-.title {
-    font-family: "Uniform";
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.description {
-    font-family: "Mont Bold";
-    font-size: 16px;
-    text-align: justify;
-}
-
-#text2 {
+#Container-1{
     display: flex;
-    align-items: center;
-    gap: 20px;
+    height: 50rem;
+    background-color: var(--bk-green);
 }
