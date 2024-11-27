@@ -14,11 +14,11 @@
     <header>
         <nav id="barnav">
             <ul class="navlist">
-                <a href="sobre" class="nav-itens">SOBRE</a> <!--Colocar o link da página-->
+                <a href="Sobre.html" class="nav-itens">SOBRE</a> <!--Colocar o link da página-->
                 <a href="ajudar" class="nav-itens">AJUDAR</a> <!--Colocar o link da página-->
                 <img src="public/images/Logo Queimada.png" alt="Logo queimada" class="nav-icons">
-                <a href="inicio" class="nav-itens">INICIO</a> <!--Colocar o link da página-->
-                <a href="ajudar" class="nav-itens">AJUDAR</a> <!--Colocar o link da página-->
+                <a href="index.html" class="nav-itens">INICIO</a> <!--Colocar o link da página-->
+                <a href="ajudar" class="nav-itens">QUEM SOFRE ?</a> <!--Colocar o link da página-->
             </ul>
         </nav>
     </header>
@@ -26,25 +26,53 @@
     <!--Conteúdo-->
     <main>
         <section id="text1">
-                <h1 class="title">QUEIMADAS</h1>
-            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, magni beatae
-                quidem
-                iure numquam non dignissimos eaque harum ducimus hic, veritatis minima?
-                Quam fuga incidunt quisquam quasi a repudiandae ab? Lorem ipsum dolor sit amet consectetur adipisicing
-                elit.
-                Fuga quasi quam dicta et quis harum, nulla molestiae.
-                Ut id dolorum quibusdam beatae a quisquam sint, vitae, excepturi, voluptatibus accusantium ex.</p>
+            <h1 class="title">QUEIMADAS</h1>
+            <p class="description">Queimadas são incêndios que ocorrem em áreas naturais, como florestas, pastagens e
+                campos, podendo ser causados tanto por ação humana quanto por ocorrências naturais. Esses eventos
+                envolvem a queima de vegetação e têm impactos prejudiciais no meio ambiente, na biodiversidade, na
+                qualidade do ar e no clima.</p>
         </section>
 
         <section id="text2">
             <img src="public/images/Queimada1.png" alt="icone de queimada" class="imag">
-            <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam vero, repellat
-                reiciendis
-                veritatis nisi cupiditate et cumque accusantium
-                eius culpa iusto rem, earum voluptate aspernatur! Repellat est distinctio sint ratione.
-            </p>
+
+            <div class="container">
+
+                <h2>Causas das queimadas no Brasil</h2>
+                <p class="description">
+
+                    Desmatamento ilegal e conversão de terras:
+                    Áreas de floresta são derrubadas e queimadas para dar lugar a pastagens ou plantações, como a
+                    soja.
+                    <br>
+                    Práticas agropecuárias:
+                    Agricultores e pecuaristas frequentemente utilizam o fogo como método barato para limpar áreas ou
+                    renovar pastagens, embora seja ilegal sem autorização em muitos casos.
+                    <br>
+                    Mudanças climáticas:
+                    O aumento das temperaturas e a diminuição da umidade intensificam a propagação do fogo, tornando as
+                    queimadas mais severas e difíceis de controlar.
+                    <br>
+                    Expansão de atividades econômicas:
+                    A exploração ilegal de madeira e mineração aumenta a pressão sobre áreas florestais, gerando
+                    incêndios intencionais ou acidentais.
+                    <br>
+                    Secas prolongadas:
+                    Eventos climáticos extremos, como El Niño, intensificam períodos de seca, tornando as florestas mais
+                    suscetíveis a incêndios.
+                    <br>
+                    Falta de fiscalização e políticas públicas:
+                    A fiscalização de fiscalização ambiental e de ações governamentais contribui para o aumento das
+                    queimadas ilegais.
+                </p>
+
+            </div>
+
         </section>
+
         <article id="container-painel">
+            <p id="description"> O mapa interativo rastreia focos de calor e disponibiliza informações sobre incêndios e
+                queimadas no Brasil</p>
             <iframe id="frame" src="https://panorama.sipam.gov.br/painel-do-fogo/#" frameborder="0"></iframe>
         </article>
     </main>
@@ -52,7 +80,6 @@
     <footer>
 
     </footer>
-
 
     <script src="/src/js/Sobre.js"></script>
 </body>
