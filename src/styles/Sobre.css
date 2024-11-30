@@ -1,6 +1,9 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
+    font-size: 16px; /* Base */
+    margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -62,6 +65,8 @@ body {
 
 }
 
+
+/*Container's */
 #text2 {
     font-family: "Mont Medium";
     font-weight: normal;
@@ -69,10 +74,9 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
-    height: 30.60rem;
+    width: 100%;
+    height: 32rem;
 }
-
-/*Container's */
 #container-painel {
     display: flex;
     flex-direction: column;
@@ -81,6 +85,17 @@ body {
     background-color: var(--bk-green);
 }
 
+.container {
+    display: flex;
+    width: 50%;
+    margin-right: 2rem;
+    flex-direction: column;
+    text-align: center;
+    align-self: flex-start;
+    padding-top: 15px;
+    max-height: 100%;
+    /* background-color: red; */
+}
 /* Elements */
 #frame {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -89,6 +104,11 @@ body {
     padding: 1rem;
     height: 600px;
     width: 900px;
+}
+
+.imag{
+    width: 70%;
+    height: 32rem;
 }
 
 #description {
@@ -100,20 +120,32 @@ body {
 }
 
 .description {
-    font-size: 1.03rem;
+    font-size: 1.4rem;
+}
+.container p {
+    position: relative;
+    top: -0.5rem;
+    font-family: "Mont Medium";
+    font-size: 1.2rem;
+    text-align: center;
+    padding-bottom: 20px;
+    max-height: 100%;
+    overflow: auto; 
+    word-wrap: break-word; /* Quebra palavras muito longas */
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 20px;
-}
+
 
 .container h2 {
     color: var(--text-1);
     font-family: "Uniform";
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 2.5rem;
+}
+#date-time {
+    font-family: "Mont Bold";
+    font-size: 1.3rem;
+    text-align: center;
     margin-bottom: 10px;
+    font-weight: bold;
+    color: var(--text-2);
 }
