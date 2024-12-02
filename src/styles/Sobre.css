@@ -160,9 +160,15 @@ body {
     color: var(--text-2);
 }
 
-h2 {
+#text1 h2 {
     display: flex;
     justify-content: center;
     color: #f1f1f1;
+    font-family: "Uniform";
+}
+#text2 h2 {
+    display: flex;
+    justify-content: center;
+    color: var(--text-1);
     font-family: "Uniform";
 }
