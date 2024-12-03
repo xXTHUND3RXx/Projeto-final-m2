@@ -1,0 +1,68 @@
+.header {
+    background-color: var(--bk-whiteice);
+    border-bottom: 2px solid #0000ff;
+}
+
+#barnav {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.navlist a {
+    font-size: 2.3rem;
+}
+
+.navlist {
+    font-family: "Uniform";
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-itens {
+    text-decoration: none;
+    color: var(--text-1);
+    font-weight: bold;
+}
+
+.nav-itens:hover {
+    color: #ea2e26;
+}
+
+.nav-icons {
+    width: 55px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#container-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(/public/images/Queimada\ 2.jpg);
+    object-fit: cover;
+    height: 30rem;
+    width: 100%;
+    text-align: center;
+}
+
+#text-container{
+
+}
+
+#text-container p{
+    margin-top: 50px;
+    width: 70ch;
+    font-size: 25px;
+    color: var(--text-2);
+    font-family: "Mont Medium";
+
+}
+
+#text-container h1{
+    color: var(--text-2);
+    font-family: "Uniform";
+    font-size: 3rem;
+}
