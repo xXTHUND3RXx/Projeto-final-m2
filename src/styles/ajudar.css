@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    
+}
+
+.header {
+    background-color: var(--bk-whiteice);
+    border-bottom: 2px solid #0000ff;
+}
+
+#barnav {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.navlist a {
+    font-size: 2.3rem;
+}
+
+.navlist {
+    font-family: "Uniform";
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-itens {
+    text-decoration: none;
+    color: var(--text-1);
+    font-weight: bold;
+}
+
+.nav-itens:hover {
+    color: #ea2e26;
+}
+
+.nav-icons {
+    width: 55px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.title {
+    font-family: "Uniform";
+    font-size: 4.2rem;
+    font-weight: bold;
+    margin-bottom: -1rem;
+}
+
+#upper-text {
+    background-color: var(--bk-green);
+    color: var(--text-2);
+    padding: 10px;
+}
+
+#gradient-section{
+    background: rgb(241,241,241);
+    background: linear-gradient(0deg, rgba(241,241,241,1) 0%, rgba(144,181,140,1) 53%, rgba(58,127,28,1) 100%);
+    padding: 150px;
+}
+
+
+
+.info-section{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;  
+    
+
+}
+
+.useful-texts{
+    background-color: var(--bk-whiteice);
+    color: var(--text-1);   
+    width: 35%;
+    height: auto;
+    padding-left: 5%;
+    
+    
+}
+
+.useful-texts h2{
+    font-family: "Uniform";
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.content-text {
+    font-family: "Mont Bold";
+    font-size: 2rem;
+    text-align: start;
+    width: 30ch;
+    
+}
+
+#how-help-content{
+    font-family: "Mont Bold";
+    font-size: 2rem;
+  
+}
