@@ -61,7 +61,38 @@ body {
     padding: 150px;
 }
 
+#gradient-section-reverse{
+    background:  rgba(58,127,28,1);
+    background: linear-gradient(0deg, rgba(58,127,28,1) 0%, rgba(144,181,140,1) 53%,  rgba(241,241,241,1) 100%);
+    padding: 150px;
+}
 
+
+#final-part{
+    background-color: var(--bk-green) ;
+    color: var(--text-2);
+}
+
+#phones{
+    background-color: var(--bk-green);
+    display: flex;
+    justify-content: center;
+    
+}
+
+#display{
+    background-color: var(--bk-whiteice);
+    width:px;
+    padding: 50px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#display p{
+    font-family: "Mont Bold";
+    font-size: 1.5rem;
+    
+}
 
 .info-section{
     display: flex;
