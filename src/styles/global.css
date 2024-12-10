@@ -193,6 +193,7 @@ footer {
     display: flex;
     flex-direction: column;
     padding-top: 0rem;
+    gap: 15px;
 }
 
 .nav-links a {
@@ -299,6 +300,12 @@ footer {
     }
     #container-reviews {
         width: 100%; /* Ocupa toda a largura */
+        height: 14rem;
+    }
+    .name-review h2{
+        position: relative;
+        top: 0rem;
+        font-size: 2rem;
     }
 
     .description-review {

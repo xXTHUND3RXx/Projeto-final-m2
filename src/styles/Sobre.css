@@ -21,9 +21,16 @@ body {
 
 #text1 p {
     font-family: "Mont Bold";
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: start;
 
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0rem;
+    gap: 0px;
 }
 
 
