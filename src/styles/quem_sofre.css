@@ -1,4 +1,17 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 200vh;
+}
+
+html,
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
 }
@@ -76,6 +89,7 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 1.5em;
+
 }
 
 .description {
@@ -86,10 +100,10 @@ body {
     /* padding-left: 50px; */
 }
 
-#image {
+/*#image {
     height: 50%;
     width: 50%;
-}
+}*/
 
 #topic {
     font-size: 1.2rem;
@@ -118,27 +132,45 @@ body {
     width: 60%;
 }
 
-/*ESTILO PARA TELAS MEDIAS*/
+/*ESTILO PARA TELAS MENORES*/
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 768px) {
 
     /*CLASSES GERAIS*/
-
-    h2 {
-        font-size: 1.3rem;
+    .first-container-article {
+        flex-direction: column;
+        align-items: center;
     }
 
-    #topico1 {
-        font-size: 1rem;
+    .first-container-article img {
+        width: 80%;
+        margin-right: 0;
     }
 
-    #imagem {
-        width: 60%;
+    #image-onca {
+        max-width: 100%;
+        height: auto;
     }
 
     /*CABEÇALHO*/
 
-    #barnav {
-        /* display: none; */
+
+}
+
+/*@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
     }
 }
+
+.animate-on-scroll {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}*/
