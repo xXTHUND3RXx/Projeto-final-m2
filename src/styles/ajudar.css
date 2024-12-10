@@ -82,18 +82,36 @@ body {
 
 #display{
     background-color: var(--bk-whiteice);
-    width:px;
+    width:350px;
     padding: 50px;
+    border-radius: 10%;
     margin-bottom: 5%;
     margin-top: 5%;
+    height: block;
 }
 
 #display p{
     font-family: "Mont Bold";
     font-size: 1.5rem;
+    color: var(--text-1); 
     
 }
 
+#state-select{
+    font-family: "Mont Bold";
+    font-size: 1.5rem;
+    color: var(--text-1);
+}
+
+#state-label{
+    font-family: "Mont Bold";
+    font-size: 2rem;
+    color: var(--text-2);
+}
+
+#final-part{
+    padding: 10px;
+}
 .info-section{
     display: flex;
     flex-wrap: nowrap;
