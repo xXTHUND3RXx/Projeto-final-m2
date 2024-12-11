@@ -87,7 +87,7 @@ body {
     border-radius: 10%;
     margin-bottom: 5%;
     margin-top: 5%;
-    height: block;
+
 }
 
 #display p{
@@ -113,18 +113,20 @@ body {
     padding: 10px;
 }
 .info-section{
-    display: flex;
-    flex-wrap: nowrap;
+    background-color: var(--bk-whiteice);
+    display: flex; 
+    flex-wrap: wrap; 
     width: 100%;
     height: auto;  
+    gap: 2rem;
     
 
 }
 
 .useful-texts{
-    background-color: var(--bk-whiteice);
+    
     color: var(--text-1);   
-    width: 35%;
+    width: auto;
     height: auto;
     padding-left: 5%;
     
@@ -149,4 +151,70 @@ body {
     font-family: "Mont Bold";
     font-size: 2rem;
   
+}
+
+/*responsevidade*/
+
+/*tablets*/
+@media (max-width: 800px) {
+    .navlist a {
+        font-size: 1.8rem;
+    }
+
+    .navlist {
+        gap: 1rem;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    #gradient-section, #gradient-section-reverse {
+        padding: 100px;
+    }
+
+    .useful-texts {
+        width: 100%;
+        padding-left: 2%;
+    }
+
+  
+    .content-text {
+        font-size: 1.5rem;
+    }
+}
+
+/* celular */
+@media (max-width: 480px) {
+    .navlist {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .navlist a {
+        font-size: 1.5rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    #display {
+        width: 90%;
+        padding: 20px;
+        margin: 10% auto;
+    }
+
+    #gradient-section, #gradient-section-reverse {
+        padding: 50px;
+    }
+
+    .useful-texts, .content-text {
+        font-size: 1.3rem;
+        width: 100%;
+    }
+
+    .info-section {
+        flex-direction: column;
+    }
 }
