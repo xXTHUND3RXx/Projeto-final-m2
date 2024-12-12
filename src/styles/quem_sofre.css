@@ -5,7 +5,7 @@
 }
 
 main {
-    min-height: 200vh;
+    min-height: 100vh;
 }
 
 html,
@@ -82,14 +82,34 @@ body {
     background-color: var(--bk-whiteice);
     display: flex;
     flex-direction: column;
+    width: 100%;
+    min-height: 100%;
     /* justify-content: space-between; */
 }
 
 .first-container-article {
     display: flex;
     align-items: center;
-    margin-bottom: 1.5em;
+    justify-content: center;
+    /*margin-bottom: 1.5em;*/
 
+
+}
+
+.first-container-article div {
+    width: 80vw;
+    height: auto;
+
+}
+
+
+#image {
+    width: 60%;
+    display: block;
+}
+
+.hidden-image {
+    display: none;
 }
 
 .description {
@@ -100,26 +120,32 @@ body {
     /* padding-left: 50px; */
 }
 
-/*#image {
-    height: 50%;
-    width: 50%;
-}*/
 
 #topic {
     font-size: 1.2rem;
     text-align: justify;
     padding-right: 1rem;
+    width: 100%;
+    overflow: hidden;
+
+
+    /*height: 30rem;
+    overflow-wrap: break-word;
+    white-space: normal;
+    text-align: justify;*/
 }
 
 .second-container-article {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--bk-green);
     /* justify-content: center; */
 }
 
 .second-container-article h2 {
     font-size: 2rem;
+    color: var(--text-2);
 }
 
 .second-container-article img {
@@ -130,13 +156,100 @@ body {
 #image-description {
     font-size: 0.8rem;
     width: 60%;
+    color: var(--text-2);
 }
 
-/*ESTILO PARA TELAS MENORES*/
+.second-container-article p {
+    color: var(--text-2);
+}
+
+/* ESTILO PARA TELAS MEDIAS */
+@media (min-width: 769px) and (max-width: 1120px) {
+    #first-section h1 {
+        font-size: 2.5rem;
+        margin-bottom: -1rem;
+    }
+
+    #first-section p {
+        font-size: 1.5rem;
+    }
+
+
+
+    .first-container-article {
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        /* overflow: hidden; */
+        background-image: url(../../public/images/menino-apagando-fogo.png);
+        background-repeat: no-repeat;
+        white-space: normal;
+        background-position: left 100%;
+        background-size: 70% 100%;
+
+    }
+
+
+    #teste {
+        height: 450px;
+        width: 44%;
+        /* overflow: hidden;
+        background-image: url(../../public/images/menino-apagando-fogo.png);
+        background-repeat: no-repeat;
+        white-space: normal;
+        background-position: left 100%; */
+
+
+    }
+
+
+    #image {
+        display: none;
+    }
+
+    .second-container-article img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #second-section {}
+
+    /* #second-section h2,
+    #topic {
+        margin-left: 500px;
+        padding: 1rem;
+        width: 80%; 
+    } */
+
+    /*#topic {
+        width: 80%;
+        margin: auto;
+
+    }*/
+
+    .description,
+    #topic {
+        font-size: 1rem;
+    }
+}
+
+
+/*ESTILO PARA TELAS MENORES */
 
 @media screen and (max-width: 768px) {
 
     /*CLASSES GERAIS*/
+
+    #first-section h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5em;
+
+    }
+
+    #first-section p {
+        font-size: 1rem;
+    }
+
     .first-container-article {
         flex-direction: column;
         align-items: center;
@@ -147,30 +260,34 @@ body {
         margin-right: 0;
     }
 
-    #image-onca {
+
+    #second-section h2 {
+        font-size: 2rem;
+
+    }
+
+    .second-container-article img {
         max-width: 100%;
         height: auto;
     }
 
-    /*CABEÇALHO*/
+
+    #image {
+        display: none;
+    }
+
+    .hidden-image {
+        display: block;
+    }
+
+    .description,
+    #topic {
+        font-size: 1rem;
+    }
+
+    #image-description {
+        font-size: 0.5rem;
+    }
 
 
 }
-
-/*@keyframes appear {
-    from {
-        opacity: 0;
-        scale: 0.5;
-    }
-
-    to {
-        opacity: 1;
-        scale: 1;
-    }
-}
-
-.animate-on-scroll {
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-}*/

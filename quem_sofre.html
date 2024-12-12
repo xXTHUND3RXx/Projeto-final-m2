@@ -27,7 +27,7 @@
     </header>
 
     <main>
-        <section id="first-section" class="animate-on-scroll">
+        <section id="first-section" class="animate-on-scroll hidden">
             <h1>Quem sofre com as queimadas?</h1>
             <p>As queimadas no Brasil afetam diretamente quem vive nas áreas atingidas, como <strong>comunidades
                     locais</strong>, que sofrem com a poluição do ar e a perda de casas e terras. <strong>Povos
@@ -40,12 +40,13 @@
             </p>
         </section>
 
-        <section id="second-section" class="animate-on-scroll">
+        <section id="second-section">
 
-            <article class="first-container-article">
+            <article class="first-container-article animate-on-scroll hidden">
                 <img id="image" src="public/images/menino-apagando-fogo.png" alt="Um menino apagando fogo">
+                <img src="public/images/menino-img-resposive.jpg" alt="Responsive Image" class="hidden-image">
 
-                <div>
+                <div id="teste">
                     <h2>Impacto nos habitantes</h2>
                     <p id="topic">
                         As queimadas no Brasil têm um impacto devastador na vida dos habitantes, principalmente em áreas
@@ -67,10 +68,9 @@
             </article>
 
 
-            <article class="second-container-article" class="animate-on-scroll">
+            <article class="second-container-article" class="animate-on-scroll hidden">
                 <h2>Quem são os mais afetados?</h2> <!-- Título provísorio -->
-                <img id="image-onca" src="public/images/onca-pintada1.jpg"
-                    alt="Onça-pintada e seu filhote no Mato-Grossense">
+                <img src="public/images/onca-pintada1.jpg" alt="Onça-pintada e seu filhote no Mato-Grossense">
                 <p id="image-description">Onça-pintada com seu filhote em meio a vegetação queimada e chamas ás
                     margens
                     do Rio Três Irmãos, no Pantanal Mato-grossense Foto: Daniel De Granville/fotoarena/3-10-2020</p>
@@ -101,6 +101,59 @@
         </section>
 
     </main>
+    <footer>
+        <div id="container-reviews">
+            <div class="review">
+                <div class="photo-review">
+                    <img src="./public/images/Dg.jpg" alt="">
+                </div>
+                <div class="text-review">
+                    <div class="name-review">
+                        <h2>Felipe Xavier</h2>
+                    </div>
+                    <div class="description-review">
+                        "Gostaria de expressar minha mais sincera gratidão por todo o apoio e dedicação recebidos. Cada
+                        gesto, palavra e atitude foi essencial e deixou marcas positivas e profundas. Sua generosidade e
+                        atenção fizeram toda a diferença, e sou imensamente grato por isso. Muito obrigado!"
+                    </div>
+                </div>
+            </div>
+
+            <div class="review">
+                <div class="photo-review">
+                    <img src="./public/images/Millena.jpg" alt="">
+                </div>
+                <div class="text-review">
+                    <div class="name-review">
+                        <h2>Millena Diniz</h2>
+                    </div>
+                    <div class="description-review">
+                        "Quero agradecer por ter feito parte desse projeto. Aprendi demais com tudo o que vivemos aqui.
+                        Agradeço de coração ao meu time, que foi essencial para que tudo acontecesse, e também a quem
+                        fez isso ser possível. Foi uma experiência incrível, e sou muito grata por tudo o que aprendi!"
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="nav-container">
+            <ul class="nav-links">
+                <h1> Menu </h1>
+                <a href="inicio.html"> Inicio </a>
+                <a href=""> Sobre </a>
+                <a href=""> Vitimas </a>
+                <a href=""> Ajudar </a>
+            </ul>
+        </div>
+
+        <div id="social-buttons">
+            <ul id="social-nav">
+                <img class="icon" src="./public/images/instagram-logo.png" alt="">
+            </ul>
+        </div>
+    </footer>
     <script src=".//src/js/quem_sofre.js"></script>
 </body>
 
