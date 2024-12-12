@@ -1,0 +1,183 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    
+}
+
+.title {
+    font-family: "Uniform";
+    font-size: 4.2rem;
+    font-weight: bold;
+    margin-bottom: -1rem;
+}
+
+#upper-text {
+    background-color: var(--bk-green);
+    color: var(--text-2);
+    padding: 10px;
+}
+
+#gradient-section{
+    background: rgb(241,241,241);
+    background: linear-gradient(0deg, rgba(241,241,241,1) 0%, rgba(144,181,140,1) 53%, rgba(58,127,28,1) 100%);
+    padding: 150px;
+}
+
+#gradient-section-reverse{
+    background:  rgba(58,127,28,1);
+    background: linear-gradient(0deg, rgba(58,127,28,1) 0%, rgba(144,181,140,1) 53%,  rgba(241,241,241,1) 100%);
+    padding: 150px;
+}
+
+
+#final-part{
+    background-color: var(--bk-green) ;
+    color: var(--text-2);
+}
+
+#phones{
+    background-color: var(--bk-green);
+    display: flex;
+    justify-content: center;
+    
+}
+
+#display{
+    background-color: var(--bk-whiteice);
+    width:350px;
+    padding: 50px;
+    border-radius: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+}
+
+#display p{
+    font-family: "Mont Bold";
+    font-size: 1.5rem;
+    color: var(--text-1); 
+    
+}
+
+#state-select{
+    font-family: "Mont Bold";
+    font-size: 1.5rem;
+    color: var(--text-1);
+}
+
+#state-label{
+    font-family: "Mont Bold";
+    font-size: 2rem;
+    color: var(--text-2);
+}
+
+#final-part{
+    padding: 10px;
+}
+
+.info-section{
+    background-color: var(--bk-whiteice);
+    display: flex; 
+    flex-wrap: wrap; 
+    width: 100%;
+    height: auto;  
+    gap: 2rem;
+    
+
+}
+
+.useful-texts{
+    
+    color: var(--text-1);   
+    width: auto;
+    height: auto;
+    padding-left: 5%;
+    
+    
+}
+
+.useful-texts h2{
+    font-family: "Uniform";
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.content-text {
+    font-family: "Mont Bold";
+    font-size: 2rem;
+    text-align: start;
+    width: 30ch;
+    
+}
+
+#how-help-content{
+    font-family: "Mont Bold";
+    font-size: 2rem;
+  
+}
+
+/*responsevidade*/
+
+/*tablets*/
+@media (max-width: 800px) {
+    .navlist a {
+        font-size: 1.8rem;
+    }
+
+    .navlist {
+        gap: 1rem;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    #gradient-section, #gradient-section-reverse {
+        padding: 100px;
+    }
+
+    .useful-texts {
+        width: 100%;
+        padding-left: 2%;
+    }
+
+  
+    .content-text {
+        font-size: 1.5rem;
+    }
+}
+
+/* celular */
+@media (max-width: 480px) {
+    .navlist {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .navlist a {
+        font-size: 1.5rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    #display {
+        width: 90%;
+        padding: 20px;
+        margin: 10% auto;
+    }
+
+    #gradient-section, #gradient-section-reverse {
+        padding: 50px;
+    }
+
+    .useful-texts, .content-text {
+        font-size: 1.3rem;
+        width: 100%;
+    }
+
+    .info-section {
+        flex-direction: column;
+    }
+}
