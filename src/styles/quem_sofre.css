@@ -16,48 +16,6 @@ body {
     line-height: 1.6;
 }
 
-.header {
-    background-color: var(--bk-whiteice);
-    border-bottom: 2px solid #0000ff;
-}
-
-#barnav {
-    display: flex;
-    justify-content: center;
-    padding: 15px 0;
-
-}
-
-.navlist {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    font-family: "Uniform";
-    align-items: center;
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-
-.nav-itens {
-    text-decoration: none;
-    color: var(--text-1);
-    font-weight: bold;
-    font-size: 2.3rem;
-    display: inline-block;
-}
-
-.nav-itens:hover {
-    text-decoration: none;
-    color: #ea2e26;
-}
-
-.nav-icons {
-    width: 55px;
-    vertical-align: middle;
-    margin-right: 5px;
-}
-
 #first-section {
     background-color: var(--bk-green);
     padding: 1.25em;
