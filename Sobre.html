@@ -11,7 +11,7 @@
 
 <body>
     <!--Cabeçalho-->
-    <header>
+    <header data-audio="sla.mp3">
         <nav id="barnav">
             <ul class="navlist">
                 <a href="Sobre.html" class="nav-itens">SOBRE</a> <!--Colocar o link da página-->
@@ -22,10 +22,10 @@
             </ul>
         </nav>
     </header>
-
+    <button id="toggle-audio">Ativar Áudio</button>
     <!--Conteúdo-->
     <main>
-        <section id="text1">
+        <section id="text1" data-audio="sla.mp3">
             <h1 class="title">QUEIMADAS</h1>
             <p class="description">Queimadas são incêndios que ocorrem em áreas naturais, como florestas, pastagens e
                 campos, podendo ser causados tanto por ação humana quanto por ocorrências naturais. Esses eventos
@@ -35,9 +35,9 @@
             </p>
         </section>
 
-        <section id="text2">
+        <section id="text2" data-audio="sla.mp3">
             <img src="public/images/Queimada1.png" alt="icone de queimada" class="imag">
-            <img id="Image-responsive" src="./public/images/quimada1 (1).jpg" alt="">
+            <img id="Image-responsive" src="./public/images/queimada1 (1).jpg" alt="">
 
             <div class="container">
 
@@ -72,14 +72,14 @@
 
         </section>
 
-        <article id="container-painel">
+        <article id="container-painel" data-audio="sla.mp3">
             <p id="description"> O mapa interativo rastreia focos de calor e disponibiliza informações sobre incêndios e queimadas no Brasil</p>
                 <div id="date-time"></div>
             <iframe id="frame" src="https://panorama.sipam.gov.br/painel-do-fogo/#" frameborder="0"></iframe>
         </article>
     </main>
 
-    <footer>
+    <footer data-audio="sla.mp3">
         <div id="container-reviews">
             <div class="review">
                 <div class="photo-review">
@@ -128,5 +128,6 @@
     </footer>
     
     <script src="/src/js/Sobre.js"></script>
+    <script src="/src/js/Suport.js"></script>
 </body>
 </html>
