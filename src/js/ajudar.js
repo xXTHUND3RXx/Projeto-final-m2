@@ -27,6 +27,15 @@ function displayer(obj){
   `
 }
 
+function displayfactory(){
+  displayInfo.innerHTML = 
+  `
+   <p>Veja uma lista de telefones úteis para cada estado!</p>
+
+  `
+  
+    
+}
 //ao carregar a pagina
 window.onload = function(){
   //id da caixa de selecao
@@ -47,7 +56,13 @@ window.onload = function(){
   //qual foi selecionado
   selectElement.addEventListener('change',event =>{
     const selectedValue = event.target.value;
-    displayer(numberByState(selectedValue))
+    if(selectedValue == "none"){
+      displayfactory()
+    }else{
+      displayer(numberByState(selectedValue))
+    }
+    
+   
     
   })
 }
