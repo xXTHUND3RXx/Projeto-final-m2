@@ -1,0 +1,1 @@
+ScrollReveal({reset: true}).reveal('.animate-on-scroll', {duration: 1500});
