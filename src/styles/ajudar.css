@@ -116,6 +116,10 @@ body {
   
 }
 
+.hidden{
+    visibility: hidden;
+}
+
 /*responsevidade*/
 
 /*tablets*/
