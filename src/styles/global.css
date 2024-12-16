@@ -7,7 +7,7 @@
 @font-face {
     font-family: "Mont Bold";
     /*parágrafos destaques*/
-    src: url("/src/font/Montserrat-Bold.ttf") format("truetype");
+    src: url("../font/Montserrat-Bold.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -15,7 +15,7 @@
 @font-face {
     font-family: "Mont Regular";
     /*parágrafos menores*/
-    src: url("/src/font/Montserrat-Regular.ttf") format("truetype");
+    src: url("../font/Montserrat-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -23,7 +23,7 @@
 @font-face {
     font-family: "Mont Medium";
     /*parágrafos*/
-    src: url("/src/font/Montserrat-Medium.ttf") format("truetype");
+    src: url("../font/Montserrat-Medium.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -31,7 +31,7 @@
 @font-face {
     font-family: "Uniform";
     /*título importante*/
-    src: url("/src/font/UniformBold.otf") format("opentype");
+    src: url("../font/UniformBold.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
