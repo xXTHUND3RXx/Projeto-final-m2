@@ -166,7 +166,7 @@
     justify-content: start;
 }
 
-@media (min-width: 1900px) and (min-height: 1070px) {
+@media (min-width: 1900px) {
     #text-container-2 h3{
         position: relative;
         right: 0rem;
@@ -186,11 +186,9 @@
         right: 0rem;
         left: 23rem;
     }
-
-
 }
 
-@media (min-width: 1370px) and (max-width: 1890px) { 
+@media (min-width: 1375px) and (max-width: 1890px) { 
 
     #devs-container{
         display: flex;
@@ -210,10 +208,11 @@
         text-align: center;
         position: relative;
         right: 0rem;
-        
+        left: 25rem;
     }
 }
-@media (min-width: 1280px){
+
+@media (max-width: 1370px){
     #devs-container{
         display: flex;
         flex-direction: column;
