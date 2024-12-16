@@ -190,8 +190,30 @@
 
 }
 
-@media (min-width: 1280px) and (max-width: 1890px) { 
+@media (min-width: 1370px) and (max-width: 1890px) { 
 
+    #devs-container{
+        display: flex;
+        flex-direction: column;
+        background-color: var(--bk-whiteice);
+        width: 90%;
+        border-radius: 0px 15px 15px 15px;
+        }
+
+    .dev img{
+        top: 3rem;
+        position: relative;
+        right: 25rem;
+    }
+
+    .texts-dev{
+        text-align: center;
+        position: relative;
+        right: 0rem;
+        left: 29rem;
+    }
+}
+@media (min-width: 1280px){
     #devs-container{
         display: flex;
         flex-direction: column;
