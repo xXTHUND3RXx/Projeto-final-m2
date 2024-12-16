@@ -49,7 +49,7 @@
     width: 100%;
 }
 
-#forma-2 {
+#form-2 {
     height: 40rem;
     width: auto; 
     max-width: 70%; 
@@ -154,12 +154,12 @@
 #image-responsive{
     display: none;
 }
-.ajuste{
+.adjust{
     width: 100%;
     height: auto;
     justify-content: center;
 }
-.ajuste h1{
+.adjust h1{
     position: relative;
     width: 20rem;
     display: flex;
@@ -242,7 +242,7 @@
         height: 10rem;
     }
 
-    #forma-2 {
+    #form-2 {
         display: none;
     }
 
@@ -271,7 +271,7 @@
         height: auto;
     }
 
-    #forma-2 {
+    #form-2 {
         height: 20rem;
         width: auto;
         position: static;
@@ -367,7 +367,7 @@
         position: absolute; 
         left: 0; 
     }
-    .ajuste h1{
+    .adjust h1{
     position: relative;
     width: 100%;
     display: flex;
