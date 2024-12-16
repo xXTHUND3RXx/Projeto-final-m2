@@ -166,7 +166,7 @@
     justify-content: start;
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and (min-height: 1080px) {
     #text-container-2 h3{
         position: relative;
         right: 0rem;
@@ -176,14 +176,15 @@
     .dev img{
         top: 3rem;
         position: relative;
-        right: 10rem;
+        right: 8rem;
+        
     }
 
     .texts-dev{
         text-align: center;
         position: relative;
         right: 0rem;
-        left: 20rem;
+        left: 23rem;
     }
 
 
