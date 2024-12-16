@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./src/styles/global.css">
 </head>
 <body>
-    <header>
+    <header data-audio="public/audios/header-inicio.mp3">
 
         <nav id="barnav">
             <ul class="navlist">
@@ -20,8 +20,9 @@
             </ul>
         </nav>
     </header>
+    <button id="toggle-audio">Ativar Áudio</button>
 <main>
-    <section id="container-1">
+    <section id="container-1" data-audio="public/audios/projetom2-inicio.mp3">
         <div id="text-container-1">
             <h1>Projeto M2</h1>
             <p>Olá, somos o Squad 5 e estamos desenvolvendo um projeto para o Hackathon, focado na conscientização sobre as queimadas no Brasil. Nosso objetivo é alertar a população sobre os riscos e impactos das queimadas, abordando suas consequências ambientais, sociais e econômicas. Queremos promover a reflexão e incentivar ações para a preservação do meio ambiente e a prevenção desse problema que afeta a todos.
@@ -29,7 +30,7 @@
         </div>
             </div>
     </section>
-    <section id="container-2">
+    <section id="container-2" data-audio="public/audios/escolha-tema.mp3">
         <img id="forma-2" src="./public/images/Forma-1.png" alt="">
         <div id="text-container-2">
             <h3>Por que escolhemos esse tema?</h3>
@@ -132,5 +133,6 @@
     </div> -->
 </footer>
     <script src="./src/js/inicio.js"></script>
+    <script src="/src/js/Suport.js"></script>
 </body>
 </html>

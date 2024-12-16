@@ -20,24 +20,6 @@
 }
 
 
-
-button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: var(--bk-green);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-}
-
-button:hover {
-    background-color: var(--text-1);
-}
-
-
 /*Container's */
 #text2 {
     font-family: "Mont Medium";
