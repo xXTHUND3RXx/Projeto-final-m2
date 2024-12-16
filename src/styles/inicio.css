@@ -15,9 +15,10 @@
     flex-direction: column;
 }
 
+
 #text-container-1 p{
     margin-top: 5px;
-    width: 70ch;
+    width: 60ch;
     font-size: 30px;
     color: var(--text-2);
     font-family: "Mont Medium";
@@ -74,7 +75,8 @@
 
 #text-container-2 p{
     font-family: "Mont Bold";
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    width: 40ch;
     text-align: center;
     color: var(--black);
 }
@@ -82,8 +84,71 @@
     display: flex;
     align-items: center;
     background-color: var(--bk-green);
-    height: 30rem;
+    height: auto;
     width: 100%;
+    flex-direction: column;
     text-align: center;
     position: relative; 
+    padding: 20px;
+}
+
+.title{
+    font-family: "Uniform";
+    color: var(--text-2);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#devs-container{
+    display: flex;
+    margin-bottom: 1.5rem;
+    background-color: var(--bk-whiteice);
+    width: 65%;
+    height: 16rem;
+    border-radius: 0px 15px 15px 15px;
+}
+.photo-dev img{
+    position: relative;
+    top: 0.5rem;
+    right: 15rem;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.texts-dev{
+    display: flex;
+    align-items: flex-start;
+    width: 80ch;
+    position: relative;
+    top: -8rem;
+    left: 10rem;
+    flex-direction: column;
+    height: auto;
+}
+.texts-dev h1{
+    font-family: "Uniform";
+    color: var(--text-1);
+    font-size: 2.5rem;
+    margin-bottom: -0.6rem;
+}
+.texts-dev h2{
+    font-family: "Mont Bold";
+    color: var(--text-3);
+    font-size: 1.3rem;
+    margin-bottom: 0.4rem;
+}
+.texts-dev h3{
+    font-family: "Mont Medium";
+    color: var(--text-1);
+    font-size: 1.2rem;
+    position: relative;
+    left: 14.3rem;
+}
+.texts-dev p{
+    font-family: "Mont Medium";
+    color: var(--black);
+    font-size: 1.3rem;
+    margin-bottom: 0.3rem;
 }
