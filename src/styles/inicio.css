@@ -166,7 +166,7 @@
     justify-content: start;
 }
 
-@media (min-width: 1920px) and (min-height: 1080px) {
+@media (min-width: 1900px) and (min-height: 1070px) {
     #text-container-2 h3{
         position: relative;
         right: 0rem;
@@ -190,7 +190,7 @@
 
 }
 
-@media (min-width: 1280px) and (max-width: 1920px) { 
+@media (min-width: 1280px) and (max-width: 1890px) { 
 
     #devs-container{
         display: flex;
