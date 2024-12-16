@@ -3,7 +3,7 @@ import urgencyNumbers from"../js/telefones.js"
 const displayInfo = document.getElementById("display")
 
 function numberByState(state){
-  const search = urgencyNumbers.find(estado => estado.estado ==state)
+  const search = urgencyNumbers.find(region => region.estado == state)
   if(search){
     return search
   }
@@ -38,13 +38,13 @@ window.onload = function(){
 
   const selectElement = document.getElementById('state-select');
 
-  const nomesEstados = urgencyNumbers.map(estado => estado.estado);
+  const namesStates = urgencyNumbers.map(region => region.estado);
 
-  nomesEstados.forEach(nomeEstado =>{
+  namesStates.forEach(namesStates =>{
 
     const option = document.createElement('option');
-    option.value = nomeEstado;
-    option.textContent = nomeEstado
+    option.value = namesStates;
+    option.textContent = namesStates
 
     selectElement.appendChild(option);
   })
