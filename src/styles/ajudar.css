@@ -3,7 +3,7 @@
     font-family: "Uniform";
     font-size: 4.2rem;
     font-weight: bold;
-    margin-bottom: -1rem;
+    margin-bottom: 1rem;
 }
 
 #upper-text {
@@ -70,13 +70,15 @@
     padding: 10px;
 }
 
-.info-section{
+#info-section{
     background-color: var(--bk-whiteice);
     display: flex; 
-    flex-wrap: wrap; 
+    flex-wrap: nowrap; 
+   
     width: 100%;
     height: auto;  
-    gap: 2rem;
+    gap: 0.5rem;
+
     
 
 }
@@ -86,7 +88,7 @@
     color: var(--text-1);   
     width: auto;
     height: auto;
-    padding-left: 5%;
+    padding-left:2%;
     
     
 }
@@ -99,7 +101,7 @@
 
 .content-text {
     font-family: "Mont Bold";
-    font-size: 2rem;
+    font-size: 1.9rem;
     text-align: start;
     width: 30ch;
     
@@ -131,6 +133,10 @@
     .content-text {
         font-size: 1.5rem;
     }
+    #info-section{
+        flex-direction: column;
+        flex-wrap: wrap; 
+    }
 }
 
 
@@ -154,7 +160,9 @@
         width: 100%;
     }
 
-    .info-section {
+    #info-section {
         flex-direction: column;
+        flex-wrap: wrap;
+        
     }
 }
