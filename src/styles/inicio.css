@@ -104,7 +104,7 @@
     margin-bottom: 1.5rem;
     background-color: var(--bk-whiteice);
     width: 65%;
-    height: 16rem;
+    height: 17.5rem;
     border-radius: 0px 15px 15px 15px;
 }
 .photo-dev img{
@@ -143,12 +143,15 @@
     font-family: "Mont Medium";
     color: var(--text-1);
     font-size: 1.2rem;
-    position: relative;
-    left: 14.3rem;
 }
 .texts-dev p{
     font-family: "Mont Medium";
     color: var(--black);
     font-size: 1.3rem;
     margin-bottom: 0.3rem;
+}
+.ajuste{
+    width: 100%;
+    height: auto;
+    justify-content: center;
 }

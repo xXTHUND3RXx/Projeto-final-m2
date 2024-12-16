@@ -1,43 +1,204 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/src/styles/global.css">
-    <link rel="stylesheet" href="/src/styles/index.css">
+    <title>inicio</title>
+    <link rel="stylesheet" href="src/styles/inicio.css">
+    <link rel="stylesheet" href="src/styles/global.css">
 </head>
-
 <body>
-    <!--Cabeçalho-->
-    <header>
+    <header data-audio="public/audios/header-inicio.mp3">
+
         <nav id="barnav">
             <ul class="navlist">
                 <a href="Sobre.html" class="nav-itens">SOBRE</a> <!--Colocar o link da página-->
                 <a href="ajudar" class="nav-itens">AJUDAR</a> <!--Colocar o link da página-->
                 <img src="public/images/Logo Queimada.png" alt="Logo queimada" class="nav-icons">
-                <a href="index.html" class="nav-itens">INICIO</a> <!--Colocar o link da página-->
+                <a href="inicio.html" class="nav-itens">INICIO</a> <!--Colocar o link da página-->
                 <a href="ajudar" class="nav-itens">AJUDAR</a> <!--Colocar o link da página-->
             </ul>
         </nav>
     </header>
-
-    <main>
-        <section id="Container-1">
-
-            <div class="texts">
-
+    <button id="toggle-audio">Ativar Áudio</button>
+<main>
+    <section id="container-1" class="animate-on-scroll" data-audio="public/audios/projetom2-inicio.mp3">
+        <div id="text-container-1">
+            <h1>Projeto M2</h1>
+            <p>Olá, somos o Squad 5 e estamos desenvolvendo um projeto para o Hackathon, focado na conscientização sobre as queimadas no Brasil. Nosso objetivo é alertar a população sobre os riscos e impactos das queimadas, abordando suas consequências ambientais, sociais e econômicas. Queremos promover a reflexão e incentivar ações para a preservação do meio ambiente e a prevenção desse problema que afeta a todos.
+            </p>  
+        </div>
             </div>
-        </section>
-    </main>
+    </section>
+    <section id="container-2" class="animate-on-scroll" data-audio="public/audios/escolha-tema.mp3">
+        <img id="forma-2" src="public/images/Forma-1.png" alt="">
+        <div id="text-container-2">
+            <h3>Por que escolhemos esse tema?</h3>
+            <p>Optamos por abordar as queimadas no Brasil devido à sua relevância e impactos graves, como a destruição da biodiversidade, o agravamento do aquecimento global, danos à saúde pública e prejuízos econômicos. Nosso objetivo é conscientizar a sociedade sobre esses problemas e incentivar ações para prevenir queimadas e preservar o meio ambiente. Acreditamos que, juntos, podemos construir um futuro mais sustentável.</p>
+        </div>
+    </section>
+    <section id="container-3" data-audio="public/audios/apresenta-dev.mp3" class="animate-on-scroll">
+        <h2 class="title"> < Desenvolvedores > </h2>
+        <div id="devs-container">
+            <div class="dev">
+                <div class="photo-dev">
+                    <img src="public/images/Dg.jpg" alt="">
+                </div>
+                <div class="texts-dev">
+                <h1> Diego </h1>
+                <h2> Estudante PdA </h2>
+                <p>"Olá! Tenho 21 anos e estou apaixonado pelo meu primeiro contato com a programação. Antes disso, trabalhei como barbeiro, social media e designer gráfico, o que me ajudou a desenvolver habilidades criativas. Estar na programação hoje é a realização de um sonho, e cada dia traz novos aprendizados que me motivam a crescer ainda mais!"</p>
+                <div class="ajuste">
+                <h3> Praia Grande - SP </h3>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div id="devs-container">
+            <div class="dev">
+                <div class="photo-dev">
+                    <img src="public/images/luana.jpg" alt="">
+                </div>
+                <div class="texts-dev">
+                <h1> Luana</h1>
+                <h2> Estudante PdA </h2>
+                <p>"Olá, tenho 20 anos e moro em Belo Horizonte-MG atualmente estou no 4 período de sistemas de informação, meu primeiro contato com a tecnologia foi através da faculdade, mas aprofundei mais em curso fora. Pensei em fazer muitas coisas antes de ir para a área de tecnologia e não me arrependo de ter ido por esse caminho."</p>
+                <div class="ajuste">
+                <h3>  Belo Horizonte-MG  </h3>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div id="devs-container">
+            <div class="dev">
+                <div class="photo-dev">
+                    <img src="public/images/natalia.jpg" alt="">
+                </div>
+                <div class="texts-dev">
+                <h1> Nathalia </h1>
+                <h2> Estudante PdA e de ADS na Unisinos </h2>
+                <p>"Olá! Tenho 20 ano e a PDA não foi meu primeiro contato com a programação visto que já explorei algumas linguagens e cheguei um pouco longe na análise de dados mas desde que entrei para a PdA, tenho me aproximado e me interessado cada vez mais pelo desenvolvimento fullstack, tanto que pretendo seguir neste caminho."</p>
+                <div class="ajuste">
+                <h3>  Cachoeirinha-Rio Grande do Sul  </h3>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div id="devs-container">
+            <div class="dev">
+                <div class="photo-dev">
+                    <img src="public/images/mateus.jpg" alt="">
+                </div>
+                <div class="texts-dev">
+                <h1> Mateus </h1>
+                <h2> Estudante PdA </h2>
+                <p>"Olá! Tenho 17 anos e atualmente, estou explorando o mundo da programação pela primeira vez, estudando na PDA e nos cursos da Alura. Esse início tem sido uma experiência extremamente satisfatória, despertando entusiasmo e vontade de aprender cada vez mais nessa área promissora."</p>
+                <div class="ajuste">
+                <h3>   Maraú - Bahia </h3>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div id="devs-container">
+            <div class="dev">
+                <div class="photo-dev">
+                    <img src="public/images/millena.jpg" alt="">
+                </div>
+                <div class="texts-dev">
+                <h1> Millena </h1>
+                <h2> Estudante PdA </h2>
+                <p>"Olá, sou Millena, tenho 21 anos, maceioense e sempre tive curiosidade pela tecnologia. Comecei a programar com a Programadores do Amanhã e desde então sigo explorando esse universo e me desenvolvendo cada vez mais."</p>
+                <div class="ajuste">
+                <h3>  Maceió-AL </h3>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div id="devs-container">
+            <div class="dev">
+                <div class="photo-dev">
+                    <img src="public/images/felipe.png" alt="">
+                </div>
+                <div class="texts-dev">
+                <h1> Felipe </h1>
+                <h2> Estudante PdA </h2>
+                <p>"Olá, tenho 21 anos. Desde criança me interesso pela tecnologia, seja em jogos, programação ou hardware. A algum tempo comecei a me interessar por programação e hoje estou aqui, vivendo um dia de cada vez e aprendendo cada vez mais. Hoje não sei muito, mas antigamente eu não sabia exatamente nada e isso me motiva a não desistir!"</p>
+                <div class="ajuste">
+                <h3>  Rio de janeiro - RJ </h3>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer data-audio="public/audios/footer-inicio.mp3">
+    <div id="container-reviews">
+        <div class="review">
+            <div class="photo-review">
+                <img src="public/images/icon.jpg" alt="">
+            </div>
+            <div class="text-review">
+                <div class="name-review">
+                    <h2>Kanã</h2>
+                </div>
+                <h3> Brigadista indígena </h3>
+                <div class="description-review">
+                    "A situação é extrema. Estamos na pior temporada de fogo, os mais velhos nos dizem que eles nunca viram tanto fogo assim no nosso território. Eles estão preocupados assim como a gente."
+                </div>
+            </div>
+        </div>
+        
+        <div class="review">
+            <div class="photo-review">
+                <img src="public/images/icon.jpg" alt="">
+            </div>
+            <div class="text-review">
+                <div class="name-review">
+                    <h2>Anielle Faccin</h2>
+                </div>
+                <h3>  Supervisora Brigadista </h3>
+                <div class="description-review">
+                    "A ordem foi para bater em retirada. Do meio para o final (da linha), a gente conseguiu. Só que tinha um grupo mais a frente, e eles ficaram em situação de perigo"
+                </div>
+            </div>
+        </div>
+        <div class="review">
+            <div class="photo-review">
+                <img src="public/images/icon.jpg" alt="">
+            </div>
+            <div class="text-review">
+                <div class="name-review">
+                    <h2>Batista</h2>
+                </div>
+                <h3> Brigadista </h3>
+                <div class="description-review">
+                    "Toda vez que eu vou para o combate, é joelho no chão. Peço a Deus proteção e que me leve em paz. O que acontece lá está na mão divina. A realidade é essa."
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <footer>
+    <div id="nav-container">
+        <h1> Menu </h1>
+        <ul class="nav-links">
+            <a href="inicio.html"> Inicio </a>
+            <a href=""> Sobre </a>
+            <a href=""> Vitimas </a>
+            <a href=""> Ajudar </a>
+        </ul>
+        <p>Projeto Final Squad 5 M2 © 2024</p>
+        <p> Criado com dedicação e colaboração.</p>
+    </div>
 
-    </footer>
-
-
-    <script src="/src/js/Sobre.js"></script>
+    <!-- <div id="social-buttons">
+        <ul id="social-nav">
+            <img class="icon" src="./public/images/instagram-logo.png" alt="">
+        </ul>
+    </div> -->
+</footer >
+    <script src="./src/js/inicio.js"></script>
+    <script src="/src/js/Suport.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/src/js/scrollReveal.js"></script>
 </body>
-
 </html>
