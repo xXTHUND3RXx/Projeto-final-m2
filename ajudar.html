@@ -8,7 +8,7 @@
         <title>Ajudar</title>
     </head>
     <body>
-        <header>
+        <header data-audio="public/audios/header-ajudar.mp3">
             <Nav id="barnav">
                 <ul class="navlist">
                     <a href="sobre.html" class="nav-itens">SOBRE</a>
@@ -20,10 +20,10 @@
 
             </Nav>
         </header>    
-        
+        <button id="toggle-audio">Ativar Áudio</button>
         <main>
             
-            <article id="upper-text" class="animate-on-scroll hidden">
+            <article id="upper-text" data-audio="public/audios/comoajudar-ajudar.mp3" class="animate-on-scroll">
                 <h2 class="title">Como ajudar?</h2>
                 <p id="how-help-content">Ajudar na preservação do meio ambiente começa com pequenas ações que qualquer pessoa pode realizar. Descubra abaixo maneiras práticas de fazer a diferença.</p>
             </article>
@@ -32,7 +32,7 @@
 
             <div id="info-section" class="animate-on-scroll hidden">
             
-                <article class="useful-texts">
+                <article class="useful-texts" data-audio="public/audios/primeiros-passos.mp3">
                     <h2>Primeiros passos</h2>
                     <ul class="content-text">
                         <li>Informe-se sobre os perigos e consequências das queimadas.</li>
@@ -43,7 +43,7 @@
                     </ul>
                 </article> 
 
-                <article class="useful-texts">
+                <article class="useful-texts" data-audio="public/audios/fogo.mp3">
                     <h2>Fogo em área verde</h2>
                     <ul class="content-text">
                         <li>Entre em contato com os bombeiros pelo número <strong>193</strong>.</li>
@@ -54,7 +54,7 @@
                     
                 </article>
 
-                <article class="useful-texts">
+                <article class="useful-texts" data-audio="public/audios/socorroa-animal.mp3">
                     <h2>Socorro animal</h2>
                     <ul class="content-text">
                         <li>Entre em contato com uma ONG de resgate animal ou centro veterinário especializado.</li>
@@ -68,7 +68,7 @@
 
             <div id="gradient-section-reverse" class="animate-on-scroll"></div>
 
-            <div id="final-part" class="animate-on-scroll hidden">
+            <div id="final-part" data-audio="public/audios/telefone-vitimas.mp3" class="animate-on-scroll">
                 <h2 class="title">A quem pedir socorro?</h2>
        
                 <label id= "state-label"for="estado">Selecione seu estado:</label>
@@ -78,14 +78,14 @@
                
             </div>
             
-            <section id="phones" class="animate-on-scroll hidden">
+            <section id="phones" class="animate-on-scroll" >
                 <div id="display">
                     <p>Veja uma lista de telefones úteis para cada estado!</p>
                 </div>
             </section>
             
         </main>
-        <footer data-audio="public/audios/footer-vitimas.mp3">
+        <footer data-audio="public/audios/footer_como_ajudar.mp3">
             <div id="container-reviews">
                 <div class="review">
                     <div class="photo-review">
@@ -148,6 +148,7 @@
         <script type = "module" src="src/js/ajudar.js"></script>
         <script src="https://unpkg.com/scrollreveal"></script>
         <script src="src/js/scrollReveal.js"></script>
+        <script src="src/js/Suport.js"></script>
 
     </body>
 </html>
