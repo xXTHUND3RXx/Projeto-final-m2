@@ -11,7 +11,7 @@
 
 <body>
     <!--Cabeçalho-->
-    <header data-audio="sla.mp3">
+    <header data-audio="public/audios/header-sobre.mp3">
         <nav id="barnav">
             <ul class="navlist">
                 <a href="Sobre.html" class="nav-itens">SOBRE</a> <!--Colocar o link da página-->
@@ -25,7 +25,7 @@
     <button id="toggle-audio">Ativar Áudio</button>
     <!--Conteúdo-->
     <main>
-        <section id="text1" data-audio="sla.mp3">
+        <section id="text1" data-audio="public/audios/queimadas-sobre.mp3" class="animate-on-scroll hidden">
             <h1 class="title">QUEIMADAS</h1>
             <p class="description">Queimadas são incêndios que ocorrem em áreas naturais, como florestas, pastagens e
                 campos, podendo ser causados tanto por ação humana quanto por ocorrências naturais. Esses eventos
@@ -35,8 +35,8 @@
             </p>
         </section>
 
-        <section id="text2" data-audio="sla.mp3">
-            <img src="public/images/Queimada1.png" alt="icone de queimada" class="imag">
+        <section id="text2" data-audio="public/audios/causas-sobre.mp3" class="animate-on-scroll hidden">
+            <img src="public/images/Queimada1.png" alt="icone de queimada" class="image-normal">
             <img id="Image-responsive" src="./public/images/queimada1 (1).jpg" alt="">
 
             <div class="container">
@@ -72,14 +72,14 @@
 
         </section>
 
-        <article id="container-painel" data-audio="sla.mp3">
+        <article id="container-painel" data-audio="public/audios/painel-sobre.mp3" class="animate-on-scroll hidden">
             <p id="description"> O mapa interativo rastreia focos de calor e disponibiliza informações sobre incêndios e queimadas no Brasil</p>
                 <div id="date-time"></div>
             <iframe id="frame" src="https://panorama.sipam.gov.br/painel-do-fogo/#" frameborder="0"></iframe>
         </article>
     </main>
 
-    <footer data-audio="sla.mp3">
+<footer data-audio="public/audios/footer-sobre.mp3">
         <div id="container-reviews">
             <div class="review">
                 <div class="photo-review">
@@ -109,25 +109,29 @@
                 </div>
             </div>
         </div>
-
+    
         <div id="nav-container">
+            <h1> Menu </h1>
             <ul class="nav-links">
-                <h1> Menu </h1>
                 <a href="inicio.html"> Inicio </a>
                 <a href=""> Sobre </a>
                 <a href=""> Vitimas </a>
                 <a href=""> Ajudar </a>
             </ul>
+            <p>Projeto Final Squad 5 M2 © 2024</p>
+            <p> Criado com dedicação e colaboração.</p>
         </div>
-
-        <div id="social-buttons">
+    
+        <!-- <div id="social-buttons">
             <ul id="social-nav">
                 <img class="icon" src="./public/images/instagram-logo.png" alt="">
             </ul>
-        </div>
-    </footer>
+        </div> -->
+</footer>
     
     <script src="/src/js/Sobre.js"></script>
     <script src="/src/js/Suport.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/src/js/scrollReveal.js"></script>
 </body>
 </html>
