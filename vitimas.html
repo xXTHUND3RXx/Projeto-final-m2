@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header>
+    <header data-audio="public/audios/header_vitimas.mp3">
         <nav id="barnav" role="navigation"> 
             <ul class="navlist">
                 <a href="sobre.html" class="nav-itens">SOBRE</a></li>
@@ -25,9 +25,9 @@
         </nav>
 
     </header>
-
+    <button id="toggle-audio">Ativar Áudio</button>
     <main>
-        <section id="first-section" class="animate-on-scroll hidden">
+        <section id="first-section" data-audio="public/audios/section1_vitimas.mp3" class="animate-on-scroll">
             <h1>Quem sofre com as queimadas?</h1>
             <p>As queimadas no Brasil afetam diretamente quem vive nas áreas atingidas, como <strong>comunidades
                     locais</strong>, que sofrem com a poluição do ar e a perda de casas e terras. <strong>Povos
@@ -42,7 +42,7 @@
 
         <section id="second-section">
 
-            <article class="first-container-article animate-on-scroll hidden">
+            <article class="first-container-article animate-on-scroll" data-audio="public/audios/section2_article1_vitimas.mp3">
                 <img id="image" src="public/images/menino-apagando-fogo.png" alt="Menino apagando fogo">
                 <img src="public/images/menino-img-resposive.jpg" alt="Menino apagando fogo em tamanho menor" class="hidden-image">
 
@@ -68,7 +68,7 @@
             </article>
 
 
-            <article class="second-container-article animate-on-scroll hidden">
+            <article class="second-container-article animate-on-scroll" data-audio="public/audios/section2_article2_vitimas.mp3">
                 <h2>Quem são os mais afetados?</h2>
                 <img src="public/images/onca-pintada1.jpg" alt="Onça-pintada e seu filhote no Mato-Grossense">
                 <p id="image-description">Onça-pintada com seu filhote em meio a vegetação queimada e chamas ás
@@ -100,7 +100,7 @@
         </section>
 
     </main>
-    <footer data-audio="public/audios/footer-inicio.mp3">
+    <footer data-audio="public/audios/footer_vitimas.mp3">
         <div id="container-reviews">
             <div class="review">
                 <div class="photo-review">
@@ -162,5 +162,6 @@
     </footer >
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="src/js/scrollReveal.js"></script>
+    <script src="src/js/Suport.js"></script>
 </body>
 </html>

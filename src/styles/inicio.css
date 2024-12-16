@@ -320,6 +320,8 @@
         object-fit: cover;
         border-radius: 50%;
         right: 0px;
+        padding-top: 0.3rem;
+        top: 0.2rem;
     }
     .texts-dev{
         display: flex;
