@@ -77,7 +77,7 @@ footer {
     flex-direction: column;
     background-color: transparent;
     width: 100%;
-    height: 18.5rem;
+    height: 20rem;
     gap: 4rem;
 }
 
@@ -245,7 +245,7 @@ footer {
 
 @media (min-width: 1920px) { 
     footer{
-        height: 18.5rem;
+        height: 20rem;
     }
 }
 
@@ -253,7 +253,7 @@ footer {
 
     footer{
         width: 100%;
-        height: 18.5rem;
+        height: 20rem;
         gap: 0rem; 
         padding: 10px;
     }
