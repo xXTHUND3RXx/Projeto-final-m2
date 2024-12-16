@@ -10,14 +10,14 @@ main {
 #first-section h1 {
     color: var(--text-2);
     font-family: "Uniform";
-    font-size: 4.2rem;
+    font-size: 4rem;
     font-weight: bold;
-    margin-bottom: -1rem;
+    margin-bottom: -0.5rem;
 }
 
 #first-section p {
     font-family: "Mont Bold";
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: start;
     color: var(--text-2);
 }
@@ -92,11 +92,6 @@ main {
 .second-container-article p {
     color: var(--text-2);
 }
-
-.hidden {
-    visibility: hidden;
-}
-
 
 @media (min-width: 769px) and (max-width: 1120px) {
     #first-section h1 {
