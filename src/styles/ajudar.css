@@ -1,8 +1,3 @@
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    
-}
 
 .title {
     font-family: "Uniform";
@@ -116,21 +111,8 @@ body {
   
 }
 
-.hidden{
-    visibility: hidden;
-}
 
-/*responsevidade*/
-
-/*tablets*/
 @media (max-width: 800px) {
-    .navlist a {
-        font-size: 1.8rem;
-    }
-
-    .navlist {
-        gap: 1rem;
-    }
 
     .title {
         font-size: 3rem;
@@ -151,17 +133,8 @@ body {
     }
 }
 
-/* celular */
+
 @media (max-width: 480px) {
-    .navlist {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-
-    .navlist a {
-        font-size: 1.5rem;
-    }
-
     .title {
         font-size: 2rem;
     }

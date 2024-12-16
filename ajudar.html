@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/src/styles/global.css">
-        <link rel="stylesheet" href="/src/styles/ajudar.css">
+        <link rel="stylesheet" href="src/styles/global.css">
+        <link rel="stylesheet" href="src/styles/ajudar.css">
         <title>Ajudar</title>
     </head>
     <body>
@@ -14,8 +14,8 @@
                     <a href="Sobre.html" class="nav-itens">SOBRE</a>
                     <a href="ajudar.html" class="nav-itens">AJUDAR</a>
                     <img src="public/images/Logo Queimada.png" alt="Logo queimada" class="nav-icons">
-                    <a href="inicio" class="nav-itens">INICIO</a>
-                    <a href="ajudar.html"class="nav-itens">AJUDAR</a>
+                    <a href="index.html" class="nav-itens">INICIO</a>
+                    <a href="vitimas.html"class="nav-itens">VITIMAS</a>
                 </ul>
 
             </Nav>
@@ -28,7 +28,7 @@
                 <p id="how-help-content">Ajudar na preservação do meio ambiente começa com pequenas ações que qualquer pessoa pode realizar. Descubra abaixo maneiras práticas de fazer a diferença.</p>
             </article>
 
-            <div id="gradient-section"></div>
+            <div id="gradient-section" class="animate-on-scroll"></div>
 
             <div class="info-section animate-on-scroll hidden">
             
@@ -66,7 +66,7 @@
                 </article>
             </div> 
 
-            <div id="gradient-section-reverse"></div>
+            <div id="gradient-section-reverse" class="animate-on-scroll"></div>
 
             <div id="final-part" class="animate-on-scroll hidden">
                 <h2 class="title">A quem pedir socorro?</h2>
@@ -85,55 +85,69 @@
             </section>
             
         </main>
-        <footer>
+        <footer data-audio="public/audios/footer-inicio.mp3">
             <div id="container-reviews">
                 <div class="review">
                     <div class="photo-review">
-                        <img src="./public/images/Dg.jpg" alt="">
+                        <img src="public/images/icon.jpg" alt="">
                     </div>
                     <div class="text-review">
                         <div class="name-review">
-                            <h2>Diego Silva</h2>
+                            <h2>Kanã</h2>
                         </div>
+                        <h3> Brigadista indígena </h3>
                         <div class="description-review">
-                            "Gostaria de expressar minha mais sincera gratidão por todo o apoio e dedicação recebidos. Cada gesto, palavra e atitude foi essencial e deixou marcas positivas e profundas. Sua generosidade e atenção fizeram toda a diferença, e sou imensamente grato por isso. Muito obrigado!"
+                            "A situação é extrema. Estamos na pior temporada de fogo, os mais velhos nos dizem que eles nunca viram tanto fogo assim no nosso território. Eles estão preocupados assim como a gente."
                         </div>
                     </div>
                 </div>
-        
+                
                 <div class="review">
                     <div class="photo-review">
-                        <img src="./public/images/nathalia.jpg" alt="">
+                        <img src="public/images/icon.jpg" alt="">
                     </div>
                     <div class="text-review">
                         <div class="name-review">
-                            <h2>Nathalia Martins</h2>
+                            <h2>Anielle Faccin</h2>
                         </div>
+                        <h3>  Supervisora Brigadista </h3>
                         <div class="description-review">
-                            "Olá me chamo Nathalia,tenho 20 ano e atualmente curso ADS na Unisinos-POA,RS. A PDA não foi meu primeiro contato com a programação visto que já explorei algumas linguagens e cheguei um pouco longe na análise de dados mas desde que entrei para a Programadores do Amanhã, tenho me aproximado e me interessado cada vez mais pelo desenvolvimento fullstack, tanto que pretendo seguir neste caminho. "
+                            "A ordem foi para bater em retirada. Do meio para o final (da linha), a gente conseguiu. Só que tinha um grupo mais a frente, e eles ficaram em situação de perigo"
+                        </div>
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="photo-review">
+                        <img src="public/images/icon.jpg" alt="">
+                    </div>
+                    <div class="text-review">
+                        <div class="name-review">
+                            <h2>Batista</h2>
+                        </div>
+                        <h3> Brigadista </h3>
+                        <div class="description-review">
+                            "Toda vez que eu vou para o combate, é joelho no chão. Peço a Deus proteção e que me leve em paz. O que acontece lá está na mão divina. A realidade é essa."
                         </div>
                     </div>
                 </div>
             </div>
         
             <div id="nav-container">
+                <h1> Menu </h1>
                 <ul class="nav-links">
-                    <h1> Menu </h1>
-                    <a href="inicio.html"> Inicio </a>
+                    <a href="index.html"> Inicio </a>
                     <a href="Sobre.html"> Sobre </a>
                     <a href=""> Vitimas </a>
                     <a href=""> Ajudar </a>
                 </ul>
+                <p>Projeto Final Squad 5 M2 © 2024</p>
+                <p> Criado com dedicação e colaboração.</p>
             </div>
         
-            <div id="social-buttons">
-                <ul id="social-nav">
-                    <img class="icon" src="./public/images/instagram-logo.png" alt="">
-                </ul>
-            </div>
-        </footer>
-        <script type = "module" src="./src/js/ajudar.js"></script>
-        <script src="./src/js/scrollReveal.js"></script>
+        </footer >
+        <script type = "module" src="src/js/ajudar.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="src/js/scrollReveal.js"></script>
 
     </body>
 </html>

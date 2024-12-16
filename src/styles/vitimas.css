@@ -1,19 +1,5 @@
-* {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-
 main {
     min-height: 100vh;
-}
-
-html,
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
 }
 
 #first-section {
@@ -111,7 +97,7 @@ body {
     visibility: hidden;
 }
 
-/* ESTILO PARA TELAS MEDIAS */
+
 @media (min-width: 769px) and (max-width: 1120px) {
     #first-section h1 {
         font-size: 2.5rem;
@@ -156,12 +142,8 @@ body {
     }
 }
 
-
-/*ESTILO PARA TELAS MENORES */
-
 @media screen and (max-width: 768px) {
 
-    /*CLASSES GERAIS*/
 
     #first-section h1 {
         font-size: 2rem;
