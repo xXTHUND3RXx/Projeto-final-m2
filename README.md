@@ -36,8 +36,8 @@ https://xxthund3rxx.github.io/projeto-final-m2/
 
 ## :bust_in_silhouette:Desenvolvedores
 - [Nathalia Martins](https://www.linkedin.com/in/nathalia-flores-1811n2004/)
-- ``Felipe``
+- [Felipe Xavier](https://www.linkedin.com/in/felipe-xavier-91a3582b5/)
 - [Diego Silva](https://www.linkedin.com/in/diego-silva-82581a326/)
-- ``Milena``
+- ``Milena Monteiro``
 - [Luana Aguiliar](https://www.linkedin.com/in/luana-aguilar-bb65b7258/)
-- ``Matheus ``
+- ``Matheus Felipe``
