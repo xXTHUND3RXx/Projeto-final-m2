@@ -38,6 +38,6 @@ https://xxthund3rxx.github.io/projeto-final-m2/
 - [Nathalia Martins](https://www.linkedin.com/in/nathalia-flores-1811n2004/)
 - [Felipe Xavier](https://www.linkedin.com/in/felipe-xavier-91a3582b5/)
 - [Diego Silva](https://www.linkedin.com/in/diego-silva-82581a326/)
-- ``Milena Monteiro``
+- [Milena Monteiro](https://www.linkedin.com/in/millena-monteiro-678925242/)
 - [Luana Aguiliar](https://www.linkedin.com/in/luana-aguilar-bb65b7258/)
 - ``Matheus Felipe``
