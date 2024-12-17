@@ -35,9 +35,9 @@ https://xxthund3rxx.github.io/projeto-final-m2/
 - ``JavaScript``
 
 ## :bust_in_silhouette:Desenvolvedores
-- [Nathalia](https://www.linkedin.com/in/nathalia-flores-1811n2004/)
+- [Nathalia Martins](https://www.linkedin.com/in/nathalia-flores-1811n2004/)
 - ``Felipe``
-- ``Diego``
+- [Diego Silva](https://www.linkedin.com/in/diego-silva-82581a326/)
 - ``Milena``
 - [Luana Aguiliar](https://www.linkedin.com/in/luana-aguilar-bb65b7258/)
 - ``Matheus ``
